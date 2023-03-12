@@ -1,0 +1,129 @@
+* {
+  /* background-color: ; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #a5b3ce;
+  --bgc-secondary: #19202d;
+  --bgc-primary: #1e2738;
+  --radius: 0.5rem;
+}
+/* ///// */
+body {
+  background-color: var(--bgc-secondary);
+}
+
+h2,h5{
+  color: #fff;
+}
+
+p{
+  color: #a5b3ce;
+  /* color: red; */
+}
+
+.main-cantant {
+}
+
+#Box{
+  max-width: 980px;
+  margin: auto;
+  margin-top: 100px;
+  background: var(--bgc-primary);
+  border-radius: 0.5rem;
+}
+/* ////// */
+
+/* Top Start */
+#top{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 10px 20px;
+}
+#top a{
+  padding: 0 10px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+#top.right,.menu{
+  display: flex;
+  align-items: center;
+  justify-content:space-around ;
+}
+
+#top.center{
+}
+
+#top .social,.s-icon{}
+
+/* ///// */
+
+.profile-intro{
+  color: #fff;
+  padding: 50px 0;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  /* height: 50svh; */
+  position: relative;
+
+}
+
+.profile-pic {
+  max-width: 160px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 75%;
+  border: 8px solid #1e2738;
+}
+
+.profle-intro-text {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ///// */
+.Featured-Projects{
+  align-items: center;
+  justify-content: center;
+}
+
+.Featured-Projects, .b-btn{
+  text-align: center;
+
+}
+/* ///// */
+.client-logo-list .logo-holder{
+  display: flex;
+  /* flex-wrap: wrap; */
+    height: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-height: 80px;
+    justify-content: center;
+}
+
+.logo-holder .logo-img{
+  width: 100%;
+  max-width: 80px;
+  height: auto;
+}
+
+/* ////// */
+/* skill section */
+.skill-icon-item{
+  width: 80px;
+  background-color: #fff;
+}
+
+
